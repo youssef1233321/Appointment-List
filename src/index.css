@@ -1,0 +1,124 @@
+body {
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  padding: 0 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#iconS {
+  top: 25%;
+  left: 15px;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  margin: 5px 0;
+}
+
+.drop span:hover {
+  background-color: #ccc;
+}
+
+.drop {
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  align-content: space-around;
+  position: relative;
+  z-index: 999;
+}
+.dropItem {
+  width: 200%;
+}
+
+.drop span {
+  cursor: pointer;
+}
+
+.fields {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.appoint {
+  background-color: #eee;
+  border: 1px solid transparent;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.searchInp {
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+section input,
+textarea {
+  width: 50%;
+  outline: none;
+}
+
+section input {
+  padding: 0 5px;
+}
+textarea {
+  resize: none;
+}
+
+section header {
+  border: 1px solid transparent;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+ul li {
+  background-color: #cccccc5a;
+}
+
+ul span {
+  color: rgba(128, 128, 128, 0.896);
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+header button {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.addAppoHead {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  ul li div h3 {
+    text-align: center;
+  }
+  ul li div p {
+    text-align: center;
+  }
+  ul li div span {
+    justify-content: center;
+  }
+}
